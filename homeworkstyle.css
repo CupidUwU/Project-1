@@ -1,0 +1,28 @@
+.carousel-caption{ 
+    background-color: rgba(31, 112, 159, 0.5);
+    border-radius: 5px;
+
+  } 
+  .footer {
+    box-sizing: border-box; /* will need vendor prefixes for webkit and mozilla */
+}
+
+.footer-item {
+    height:300px;
+    width: 33%;
+    float: left;
+}
+
+.footer-item + .footer-item {
+    border-left: 1px solid rgb(255, 255, 255);
+}
+
+.purpose-container{
+    background-color: #657BEE;
+}
+
+@media (min-width: 768px) {
+    .purpose-container .card{
+        margin-bottom: 20px;
+    }
+}
